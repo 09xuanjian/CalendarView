@@ -35,9 +35,9 @@ public class calendarPersenter {
         initCalendarData();
     }
     private void initTestData(String s,String s2,String s3){
-        allReturnDate.add(0,s);
+        allReturnDate.add(0,"2015-12-04");
         hadOpenDate.add(0,s2);
-        notOpenDate.add(0,s3);
+        notOpenDate.add(0,"2015-12-02");
     }
 
     private void initDateFormat() {
@@ -69,10 +69,12 @@ public class calendarPersenter {
                 e.printStackTrace();
             }
             firstDates.add(date);
-            //TODO 测试数据用
-            initTestData(listDate.get(0),listDate.get(1),listDate.get(2));
 
         }
+
+        //TODO 测试数据用
+        initTestData(listDate.get(0),listDate.get(1),listDate.get(2));
+
         if (iCalendarView.getCalendar() != null) {
             iCalendarView.setReturnDate(allReturnDate);
             iCalendarView.setSpecialDay1(notOpenDate);

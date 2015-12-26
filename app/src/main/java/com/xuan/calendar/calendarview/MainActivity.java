@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity implements ICalendarView{
             checkInCalendar.setWeekTitleTextStyle(12,
                     getResources().getColor(R.color.check_in_week_title));
             checkInCalendar.setTitleHeight(0.06666f);
-//			checkInCalendar.setTitleSelector(true);
+			checkInCalendar.setTitleSelector(true);
             checkInCalendar.setTitleTextStyle(15,
                     getResources().getColor(R.color.color_666666));
             checkInCalendar.setWeekendWeekdayStyle(
