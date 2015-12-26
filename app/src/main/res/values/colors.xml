@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- retrun day  -->
+    <color name="return_calendar_title">#333333</color>
+    <color name="return_calendar_title_weekend">#333333</color>
+    <color name="return_calendar_title_weekday">#333333</color>
+    <color name="return_calendar_title_week_blackground">#ffffff</color>
+
+    <color name="return_calendar_normal">#333333</color>
+    <color name="return_calendar_weekend">#cccccc</color>
+    <color name="return_calendar_now">#ffffff</color>
+    <color name="return_calendar_return_day">#33B5E5</color>
+    <color name="return_calenda_line">#00000000</color><!-- 透明色 -->
+    <color name="return_calendar_more">#1a97ff</color>
+    <color name="check_in_week_title">#333333</color>
+
+    <color name="return_calendar_income">#ff8d6b</color>
+    <color name="return_calendar_income_tips">#666</color>
+    <color name="return_calendar_today_bg">#6dc9fc</color>
+
+    <color name="return_calendat_popwin_tv">#ff8d6b</color>
+    <color name="return_calendat_popwin_bg">#f4f4f4</color>
+    <color name="color_666666">#666666</color>
+    <color name="check_in_week_title_bg">#ededed</color>
+
+    <!-- return day -->
+
+    <color name="white">#ffffff</color>
+
+</resources>

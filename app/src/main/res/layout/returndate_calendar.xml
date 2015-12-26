@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.xuan.calendar.calendarview.RetrunDateGridView
+        android:id="@+id/gv_calendar"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="0dp"
+        android:verticalSpacing="0dp"
+        android:listSelector="@null"
+        style="@style/lv_style"
+        android:numColumns="7"
+        android:stretchMode="columnWidth"/>
+
+</LinearLayout>

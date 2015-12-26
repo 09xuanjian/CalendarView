@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.xuan.calendar.calendarview.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="展示日历控件"
+        android:gravity="center"
+        android:textSize="18dp"
+        />
+<!-- -->
+    <LinearLayout
+        android:id="@+id/return_day_ll"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+
+</LinearLayout>
